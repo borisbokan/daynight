@@ -4,10 +4,10 @@
  *
  */
 function Thermostat() {
-  this.currentTime = 6;
-  this.switched = true;
-  this.currentTemp = 11;
-  this.dailyTemperature = 27;
+  this.currentTime = 6; //change the data as you wish
+  this.switched = true; // if temp < 8 must be true and if  > 16 must be false
+  this.currentTemp = 4; //change the data as you wish
+  this.dailyTemperature = 27; //Daly temp
 
   this.getCurrentTemperature = () => this.currentTemp;
   //Current time in minutes
