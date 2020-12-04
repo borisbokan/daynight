@@ -12,10 +12,10 @@ function Thermostat() {
   this.getCurrentTemperature = () => this.currentTemp;
   //Current time in minutes
   this.getCurrentTime = () => this.currentTime;
-
+  //Is switched
   this.isSwitched = () => this.switched;
-
-  this.resetDays = () => (this.currentTime = 6);
+  //Resseting time not date
+  this.resetTime = () => (this.currentTime = 6);
 
   this.resetTemperature = () => (this.currentTemp = 11);
 
