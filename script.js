@@ -66,16 +66,14 @@ setInterval(function () {
   //???
   //Increasinghours
   thermo.increaseHour();
-
+  thermo.getCurrentTime() == 7
+    ? thermo.resetTemperature()
+    : thermo.getCurrentTemperature();
   if (thermo.getCurrentTime() > 24) {
     thermo.resetTime();
-
-    thermo.getCurrentTime() == 7
-      ? thermo.resetTemperature()
-      : thermo.getCurrentTemperature();
   } else {
     if (
-      +thermo.getCurrentTime() === 24 ||
+      thermo.getCurrentTime() === 24 ||
       (thermo.getCurrentTime() > 1 && thermo.getCurrentTime() < 7)
     ) {
       thermo.decrease();
