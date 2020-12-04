@@ -111,4 +111,4 @@ setInterval(function () {
       thermo.settingCriteriaOfTemperature();
     }
   }
-}, 2000); //Set the simulated time you want (that the minute does not last 6000 sec)..to have a shorter duration
+}, 3500); //Set the simulated time you want (that the minute does not last 6000 sec)..to have a shorter duration
