@@ -1,0 +1,14 @@
+HELP ME WITH THIS EXERCICE.......
+
+Create a simulation environment
+where the day / night cycle is 12 minutes instead of 12 hours.
+During the day the temperature increases by 2 degrees per minute
+and at night decreases by 2 degrees per minute.Create a thermostat which
+when the temperature is less than 8 degrees is in the on state
+and turns off
+after the temperature exceeds 16 degrees.
+When the thermostat is switched on
+or off to print on the console its energy
+and temperature at the given time."""" There is a function,
+setInterval,
+that you can use to do something over a period of time """""    " THANKS "
