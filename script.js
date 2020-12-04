@@ -68,7 +68,7 @@ setInterval(function () {
   thermo.increaseHour();
 
   if (thermo.getCurrentTime() > 24) {
-    thermo.resetDays();
+    thermo.resetTime();
 
     thermo.getCurrentTime() == 7
       ? thermo.resetTemperature()
