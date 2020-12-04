@@ -6,7 +6,7 @@
 function Thermostat() {
   this.currentTime = 6; //change the data as you wish
   this.switched = true; // if temp < 8 must be true and if  > 16 must be false
-  this.currentTemp = 4; //change the data as you wish
+  this.currentTemp = 3; //change the data as you wish
   this.dailyTemperature = 27; //Daly temp
 
   this.getCurrentTemperature = () => this.currentTemp;
@@ -17,7 +17,7 @@ function Thermostat() {
   //Resseting time not date
   this.resetTime = () => (this.currentTime = 6);
 
-  this.resetTemperature = () => (this.currentTemp = 11);
+  this.resetTemperature = () => (this.currentTemp = 3);
 
   //get daily temperature
   this.getDailyTemperature = () => this.dailyTemperature;
@@ -49,7 +49,7 @@ Thermostat.prototype.switchOff = function () {
 
 //control of temperature
 Thermostat.prototype.settingCriteriaOfTemperature = function () {
-  if (this.getCurrentTemperature() == 8) {
+  if (this.getCurrentTemperature() < 8) {
     this.switchOn();
     console.log(`Thermostat status: ${this.isSwitched() ? 'On' : 'Off'} `);
   }
