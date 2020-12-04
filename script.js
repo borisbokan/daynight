@@ -19,6 +19,7 @@ function Thermostat() {
 
   this.resetTemperature = () => (this.currentTemp = 11);
 
+  //get daily temperature
   this.getDailyTemperature = () => this.dailyTemperature;
 }
 
