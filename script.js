@@ -113,4 +113,4 @@ setInterval(function () {
       thermo.settingCriteriaOfTemperature();
     }
   }
-}, 2000);//put time 
+}, 2000); //put time
