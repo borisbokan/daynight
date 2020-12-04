@@ -10,7 +10,7 @@ function Thermostat() {
   this.dailyTemperature = 27;
 
   this.getCurrentTemperature = () => this.currentTemp;
-
+  //Current time in minutes
   this.getCurrentTime = () => this.currentTime;
 
   this.isSwitched = () => this.switched;
