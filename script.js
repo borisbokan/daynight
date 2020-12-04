@@ -1,6 +1,6 @@
 'use strict';
 /**
- * @author Boris Bokan, borisbokan@gmail.com;
+ * @author Boris Bokan, borisbokan@gmail.com; v1
  *
  */
 function Thermostat() {
